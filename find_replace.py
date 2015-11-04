@@ -1,5 +1,5 @@
 import os
-
+ 
 def main(path, file_name, old_content, new_content):
     path = os.path.abspath(path)
     if path:
@@ -18,6 +18,6 @@ def main(path, file_name, old_content, new_content):
 
 
 if __name__ == '__main__':
-    old_content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim  ad minim veniam,"
-    new_content = "Effective of 01st August 2015, the passport collection time in UAE Centers (Abu Dhabi, Dubai & Sharjah ) will be from 02.00 pm till 05.00 pm only"
-    main('vfs_webpage_bak/views/', 'homelayout.html', old_content, new_content)
+    old_content = "pazhaya content"
+    new_content = "puthusu kanna puthusu"
+    main('file/path/to/specify', 'file_name', old_content, new_content)
